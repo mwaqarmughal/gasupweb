@@ -3,7 +3,7 @@ import React from 'react';
 import './Footer.css';
 import "boxicons";
 import Icon from "@iconify/react";
-import bxsChevronRight from "@iconify-icons/bx/bxs-chevron-right";
+
 
 function Footer() {
 
@@ -46,17 +46,16 @@ function Footer() {
                 <ul>
                   <br />
                   <li>
-                    <Icon icon={bxsChevronRight} />
+                    
                     <a href="/">Home</a>
                   </li>
                   <li>
-                    <Icon icon={bxsChevronRight} /> <a href="">About us</a>
+                   
                   </li>
                   <li>
-                    <Icon icon={bxsChevronRight} /> <a href="/previous-experiences">Previous Experiences</a>
+                   <a href="/previous-experiences">Previous Experiences</a>
                   </li>
                   <li>
-                    <Icon icon={bxsChevronRight} />
                     <a href="/term-of-services">Terms of service</a>
                   </li>
                 </ul>
@@ -67,21 +66,17 @@ function Footer() {
                 <ul>
                   <br />
                   <li>
-                    <Icon icon={bxsChevronRight} />
 
                     <a href="/work-at-door-step">Working at Door steps</a>
                   </li>
                   <li>
-                    <Icon icon={bxsChevronRight} />
 
                     <a href="#">Mobile Fueling</a>
                   </li>
                   <li>
-                    <Icon icon={bxsChevronRight} />
                     <a href="#">Mobile Mechanical Services</a>
                   </li>
                   <li>
-                    <Icon icon={bxsChevronRight} />
 
                     <a href="#">Mobile Car Wash Services</a>
                   </li>
