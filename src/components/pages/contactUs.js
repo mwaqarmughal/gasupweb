@@ -1,7 +1,6 @@
  import React, { useEffect} from "react";
 // import "../../App.css";
 import "boxicons";
-import  Icon from "@iconify/react";
 import Footer from "../Footer";
 import './contactUs.css'
 
