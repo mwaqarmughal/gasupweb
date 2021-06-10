@@ -4,7 +4,6 @@ import "boxicons";
 import  Icon from "@iconify/react";
 import bxsChevronMap from "@iconify-icons/bx/bxs-map";
 import bxsChevronEnvelope from "@iconify-icons/bx/bxs-envelope";
-import bxsChevronPhone from "@iconify-icons/bx/bxs-phone";
 import Footer from "../Footer";
 import './contactUs.css'
 
@@ -41,7 +40,6 @@ function ContactUs() {
 
             <div class="col-lg-3 col-md-6">
               <div class="info-box  mb-4">
-                <Icon class="icon" icon={bxsChevronEnvelope} />
 
                 <h3>Email Us</h3>
                 <p>contact@gasup.com</p>
@@ -50,7 +48,6 @@ function ContactUs() {
 
             <div class="col-lg-3 col-md-6">
               <div class="info-box  mb-4">
-                <Icon class="icon" icon={bxsChevronPhone} /><h3>Call Us</h3>
                 <p>+92 300 1234567</p>
               </div>
             </div>
