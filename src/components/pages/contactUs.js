@@ -2,8 +2,6 @@
 // import "../../App.css";
 import "boxicons";
 import  Icon from "@iconify/react";
-import bxsChevronMap from "@iconify-icons/bx/bxs-map";
-import bxsChevronEnvelope from "@iconify-icons/bx/bxs-envelope";
 import Footer from "../Footer";
 import './contactUs.css'
 
@@ -29,7 +27,6 @@ function ContactUs() {
           <div class="row" data-aos="fade-up" data-aos-delay="100">
             <div class="col-lg-6">
               <div class="info-box mb-4">
-                <Icon class="icon" icon={bxsChevronMap} />
                 <h3>Our Address</h3>
                 <p>
                   Defence Road، Off Raiwind Rd, Lda Avenue Phase 1, Lahore,
