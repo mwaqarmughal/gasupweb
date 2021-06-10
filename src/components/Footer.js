@@ -2,7 +2,6 @@
 import React from 'react';
 import './Footer.css';
 import "boxicons";
-import Icon from "@iconify/react";
 
 
 function Footer() {
